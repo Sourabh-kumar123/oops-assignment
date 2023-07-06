@@ -1,0 +1,42 @@
+ANSWER 1:-Inheritance is a fundamental concept in object-oriented programming (OOP) that allows a class to 
+inherit properties and behaviors from another class.
+it enables code reuse and promotes the creation of hierarchical relationships between classes.
+
+ANSWER 2:-
+Single Inheritance:
+Single inheritance refers to the ability of a class to inherit properties and behaviors from a single superclass. 
+In this approach, a subclass can have only one direct superclass. 
+The subclass inherits all the members (methods and attributes) of the superclass and can override or extend them as needed.
+
+Multiple Inheritance:
+Multiple inheritance allows a class to inherit properties and behaviors from multiple superclasses. 
+In this approach, a subclass can have multiple direct superclasses, and it inherits all their members.
+
+ANSWER 3:-
+Base Class:
+The base class, also known as the superclass or parent class, is the class from which other classes inherit properties and behaviors. 
+It serves as the foundation or starting point for inheritance. 
+The base class defines a set of attributes and methods that can be inherited by other classes.
+
+ANSWER 4:-Protected Access Modifier:
+Inheritance allows subclasses to inherit members from the superclass, but the accessibility of those members is determined by the access modifiers.
+ The "protected" access modifier grants access to 
+the member within the defining class and its subclasses, but not to code outside the inheritance hierarchy.
+
+Private Access Modifier:
+The "private" access modifier restricts the access of a member to only within the defining class. It is the most restrictive access level and prevents 
+access to the member from any subclass or code outside the class.
+
+Public Access Modifier:
+The "public" access modifier provides the least restrictive access level. A public member can be accessed from anywhere, including within the class, 
+within subclasses, and from code outside the class.
+
+Derived Class:
+The derived class, also known as the subclass or child class, is a class that inherits properties and behaviors from a base class. 
+The derived class extends or modifies the 
+functionality of the base class by adding new attributes or methods or by overriding the inherited ones.
+
+ANSWER 5:-The "super" keyword in inheritance refers to the superclass or base class from which a subclass inherits. It is used to
+ access and invoke the superclass's members (methods and attributes) from within the subclass. The "super" keyword provides a way to refer to the 
+superclass and access its functionality, allowing for code reuse and customization.
+
